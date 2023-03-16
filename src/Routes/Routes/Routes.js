@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
-// import Main from "../../Layout/Main";
-// import Home from "../../Pages/Home/Home/Home";
+import Main from "../../Layout/Main";
+import Home from "../../Pages/Home/Home/Home";
 // import Login from "../../Pages/Login/Login";
 // import Logini from "../../Pages/Logini/Logini";
 // import Mainout from "../../Pages/Mainout/Mainout";
@@ -11,12 +11,12 @@ import { createBrowserRouter } from "react-router-dom";
 const router = createBrowserRouter([
   {
     path: "/",
-//     element: <Main></Main>,
-//     children: [
-//       {
-//         path: "/",
-//         element: <Home></Home>,
-//       },
+    element: <Main></Main>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
 //       {
 //         path: "/login",
 //         element: <Logini></Logini>,
@@ -61,7 +61,7 @@ const router = createBrowserRouter([
 //         path: "shopmore",
 //         element: <ShopMore></ShopMore>,
 //       },
-//     ],
+    ],
   },
 ]);
 
