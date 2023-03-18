@@ -3,6 +3,9 @@ import { nanoid } from 'nanoid';
 import NotesList from './components/NotesList';
 import Search from './components/Search';
 import Header from './components/Header';
+import Footer from './components/Footer';
+import AboutUs from './components/AboutUs';
+import GetTouch from './components/GetTouch';
 
 const App = () => {
 	const [notes, setNotes] = useState([
@@ -77,7 +80,12 @@ const App = () => {
 					handleAddNote={addNote}
 					handleDeleteNote={deleteNote}
 				/>
+				
 			</div>
+			<GetTouch></GetTouch>
+			<AboutUs></AboutUs>
+			<Footer></Footer>
+			
 		</div>
 	);
 };
