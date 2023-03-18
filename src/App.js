@@ -82,8 +82,9 @@ const App = () => {
 				/>
 				
 			</div>
-			<GetTouch></GetTouch>
+			
 			<AboutUs></AboutUs>
+			<GetTouch></GetTouch>
 			<Footer></Footer>
 			
 		</div>
