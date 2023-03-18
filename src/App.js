@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import AboutUs from './components/AboutUs';
 import GetTouch from './components/GetTouch';
+import RightPlan from './components/RightPlan';
 
 const App = () => {
 	const [notes, setNotes] = useState([
@@ -84,6 +85,7 @@ const App = () => {
 			</div>
 			
 			<AboutUs></AboutUs>
+			<RightPlan></RightPlan>
 			<GetTouch></GetTouch>
 			<Footer></Footer>
 			
