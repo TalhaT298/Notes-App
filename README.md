@@ -27,3 +27,12 @@ This project is a simple yet powerful note-taking application built with React. 
 1. **Clone the repository:**
    ```sh
    git clone <repository-url>
+2. **Install dependencies::**
+   ```sh
+   npm install
+3. **Create a .env file and define environment variables:**
+4. **Start the development server:**
+   ```sh
+   npm start
+5. ```sh
+   npm run build
